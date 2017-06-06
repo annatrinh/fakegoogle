@@ -1,0 +1,159 @@
+body {
+  font-family: arial;
+}
+
+.top-nav {
+  float: right;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.top-nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px 0 0;
+  margin: 5px 0 0 0;
+  vertical-align: middle;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #57575A;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #131314;
+  cursor: pointer;
+}
+
+.fa {
+  color: #57575A;
+  font-size: 20px;
+}
+
+.fa:hover {
+  color: #131314;
+}
+
+.fa-bell {
+  font-size: 17px;
+  color: white;
+  background-color: #6B6969;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.fa-bell:hover {
+  color: white;
+  background-color: #494848;
+}
+
+.share-button {
+  background-color: #F2F2F4;
+  padding: 8px 12px;
+}
+
+.share-button:hover {
+  background-color: #CCCCD3;
+}
+
+.profile-img {
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 200px;
+  width: 100%;
+  display: block;
+}
+
+.logo img {
+  width:275px;
+  margin: 0 auto;
+  display: block;
+}
+
+.searchbox input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  width: 570px;
+  padding: 11px;
+  border: solid 1px #C8C8C8;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px #C8C8C8;
+  font-size: 18px;
+}
+
+.buttons {
+  margin: 40px 470px 0 450px;
+}
+
+.buttons li {
+  list-style: none;
+  display: inline-block;
+  float: center;
+}
+
+.buttons span {
+  background-color: #F2F2F4;
+  color: #7A7A7A;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.buttons span:hover {
+  background-color: #F7F7F7;
+  color: #57575A;
+  border: 1px solid #C1C1C1;
+}
+
+.button1 {
+  margin-right: 7px;
+}
+
+.button2 {
+  margin-left: 7px;
+}
+
+.bottom-nav {
+  width: 100%;
+  bottom: 0 !important;
+  background-color: #E6E4E4;
+  position: absolute;
+  border-top: solid 1px #DEDCDC;
+}
+
+.leftside li, .rightside li {
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 10px 0 10px;
+  vertical-align: middle;
+}
+
+.leftside a, .rightside a {
+  text-decoration: none;
+  color: #57575A;
+}
+
+.leftside a:hover, .rightside a:hover {
+  color: #131314;
+  text-decoration: underline;
+}
+
+.leftside {
+  float: left;
+}
+
+.rightside {
+  float: right;
+  margin-right: 30px;
+}
